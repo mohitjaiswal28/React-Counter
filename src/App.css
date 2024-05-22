@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+
+body {
+  background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+  font-family: sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.counter {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+.counter h1 {
+  font-size: 3rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.counter h2 {
+  font-size: 5rem;
+  padding: 3rem 12rem;
+  background: radial-gradient(534px at 7.8% 17.6%, rgb(254, 253, 112) 1.7%, rgb(248, 143, 111) 91.8%);
+  border-radius: 2rem;
 }
+
+.button {
+  font-size: 3rem;
+  padding: 1rem 3rem;
+  border-radius: 10%;
+  background: radial-gradient(534px at 7.8% 17.6%, rgb(254, 253, 112) 1.7%, rgb(248, 143, 111) 91.8%);
+  border: 0;
+  transition: all ease-in-out 0.2s;
+}
+
+.button:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+.reset {
+  margin-top: 2rem;
+  font-size: 1rem;
+  padding: 1rem 1rem;
+  border-radius: 10%;
+  background: radial-gradient(circle at 10% 20%, rgba(239, 87, 87, 0.74) 0%, rgba(245, 123, 13, 0.74) 90.2%);
+  border: 0;
+  transition: all ease-in-out 0.2s;
+}
+
+.reset:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+.plusminus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.plus {
+  padding-right: 3rem;
+}
+
