@@ -8,6 +8,7 @@ This repository contains a simple React counter component. The counter allows us
 
 ## Deploy Link
 
+[Deploy Link](https://664d7a21a4e4b3946819d528--jolly-kleicha-362a45.netlify.app/)
 
 ## Features
 
